@@ -1,0 +1,78 @@
+﻿/*Texture background*/
+body {
+    background: radial-gradient(black 3px, transparent 4px), radial-gradient(black 3px, transparent 4px), linear-gradient(#fff 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px), #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+
+header {
+    background-color: #333; /*background color for our top bar*/
+    height: 50px;
+    color: white;
+}
+
+    header h1 {
+        padding: 10px;
+    }
+
+img {
+    margin-top: 2%;
+    border-radius: 40%;
+    height: 400px;
+    width: 300px;
+}
+
+    img:hover {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+
+/*Using flex*/
+.flex-container {
+    display: flex;
+}
+
+    .flex-container > div {
+        background-color: DodgerBlue;
+        color: white;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+    }
+
+        .flex-container > div > a {
+            color: white;
+            text-decoration: none;
+        }
+
+/*For table css*/
+table {
+    border-collapse: collapse;
+}
+
+    table td, table th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    table tr:hover {
+        background-color: #ddd;
+    }
+
+    table th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #333;
+        color: white;
+    }
+
+.jumbotron {
+    height: 10px;
+}
